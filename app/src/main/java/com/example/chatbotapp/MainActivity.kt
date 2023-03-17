@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         messageModalArrayList.add( MessageModel(userMsg, 1))
         messageRVAdapter.notifyDataSetChanged()
 
-        val url = "http://api.brainshop.ai/get?bid=173442&key=Ma5bkUMrhCqyle7B&uid=uid&msg=$userMsg"
+        val url = "Enter your API KEY&uid=uid&msg=$userMsg"
         val queue = Volley.newRequestQueue(this@MainActivity)
 
         // on below line we are making a json object request for a get request and passing our url .
